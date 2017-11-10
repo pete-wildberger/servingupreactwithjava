@@ -1,0 +1,13 @@
+{
+  "name": "reactapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildme": "cd src/main/resources/static && yarn run build",
+    "start": "mvn clean spring-boot:run"
+  },
+  "author": "Peter Wildberger",
+  "license": "ISC"
+}
